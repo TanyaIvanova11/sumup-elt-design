@@ -1,0 +1,8 @@
+
+
+============================== 2024-03-02 18:14:42.984473 | 86d22046-1be0-4a22-8ce3-d44a0966767c ==============================
+[0m18:14:42.984492 [info ] [MainThread]: Running with dbt=1.3.1
+[0m18:14:42.984984 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/tanyaivanova/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m18:14:42.985149 [debug] [MainThread]: Tracking: tracking
+[0m18:14:43.019082 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e9eafa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e9b0b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e9b0af0>]}
+[0m18:16:13.372830 [debug] [MainThread]: Starter project path: /usr/local/Cellar/dbt-snowflake@1.3.0/1.3.0/libexec/lib/python3.9/site-packages/dbt/include/starter_project

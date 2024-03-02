@@ -1,0 +1,16 @@
+
+version: 2
+
+models:
+  - name: dim_store
+    description: "Contains data about all stores"
+
+
+  - name: my_second_dbt_model
+    description: "A starter dbt model"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
