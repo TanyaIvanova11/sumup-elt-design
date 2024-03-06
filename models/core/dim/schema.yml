@@ -1,0 +1,22 @@
+
+version: 2
+
+models:
+  - name: dim_store
+    description: "Contains data about all stores"
+    columns:
+    - name: id
+      description: "The primary key for this table"
+      tests:
+        - unique
+        - not_null
+
+
+  - name: dim_device
+    description: "Contains data about all devices"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null

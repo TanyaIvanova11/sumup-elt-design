@@ -1,0 +1,18 @@
+
+version: 2
+
+models:
+  - name: top_10_stores
+    description: "Output of the model represent the Top 10 stores per transacted amount"
+
+  - name: top_10_products
+    description: "Output of the model represent the Top 10 products sold"
+
+  - name: avg_amount_typology_country
+    description: "Average transacted amount per store typology and country"
+
+  - name: prc_transactions_device_type
+    description: "Output of the model represent percentage of transactions per device type"
+
+  - name: avg_time_5_transactions
+    description: "Average time for a store to perform it's first five transactions"
